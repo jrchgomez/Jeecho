@@ -1,0 +1,290 @@
+/*GOMEZ GENERAL STYLES*/
+/*INDEX*/
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 36, 19) 0%, rgba(5, 182, 188, 0.991) 57%, rgba(178,203,208,1) 84%);
+    font-family: Calibri,Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+header{
+    height: 72px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    background-color: rgb(5, 182, 188, 0.991);
+}
+
+header h1{
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.heroimage{
+    background-image: url(../images/bakkayan\ beach\ resort2.png);
+    height: 1200px;
+    background-size: cover;
+    background-position: center;;   
+    
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7); 
+    border-radius: 10px;
+}
+
+h1{
+    font: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font: rgb(49, 47, 47);
+}
+
+main{
+    padding: 0em 2em 1em 2em;
+}
+
+main p{
+    font-family: 'cambria';
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+nav{
+    padding: 0.5em;
+    background-color: rgba(10, 162, 167, 0.991);
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 0.5em 1em 0.5em 1em;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color:white;
+    background-color: rgb(113, 113, 113);
+    transition: 0.4s;
+}
+
+ul {
+    font-family: 'cambria';
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+footer{
+    padding: 0em 2em 1em 2em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/*COTTAGE*/
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
+
+.heroimage2{
+    background-image: url(../images/main\ cottage.png);
+    height: 1500px;
+    background-size: cover;
+    background-position: center;  
+}
+
+.listing{
+    background-color: #cfcccc;
+    padding: 2em;
+    text-align: center;
+}
+.card:hover{
+    max-width: 320px;
+    transition: 0.5s;
+}
+.card{
+    overflow: hidden;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 14px;
+    display: inline-block;
+    margin-right: 1.3em;
+}
+
+.card img{
+    border-radius: 14px 14px 0px 0px;
+    width: 100%;
+}
+
+.card-body{
+    padding: 0em 1em 1em 1em;
+}
+
+
+/*ROOM RATES*/
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
+
+.heroimage3{
+    background-image: url(../images/Room\ rates\ main.png);
+    height: 1500px;
+    background-size: cover;
+    background-position: center
+}
+
+
+/*RESERVATION*/
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
+
+.heroimage4{
+    background-image: url(../images/Reservation.png);
+    height: 950px;
+    background-size: cover;
+    background-position: 0px 50%;  
+}
+
+form{
+    background-color: rgb(213, 210, 210);
+    border-radius: 5px;
+    position: center;
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+	padding: 90px;
+}
+  
+label{
+    font-weight: bold;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="date"],
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+	margin-bottom: 20px;
+}
+  
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+
+/*ABOUT US*/
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
+
+.heroimage5{
+    background-image: url(../images/About\ Us.png);
+    height: 800px;
+    background-size: cover;
+    background-position: 0px 100%;   
+}
+
+main{
+    border-radius: 5px;
+    position: center;
+	max-width: 900px;
+	margin: auto;
+	padding: 90px;
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+    font-size: medium;
+}
+
+h4{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: light;
+}
+
+/*
+    __     __     ____     ________      _________  ___      ___
+   |  |   |  |   /    |   |   ___  \    |  ______|  \  \    /  /
+   |  |   |  |  /  /  |   |  |   \  \   |  |___      \  \  /  /
+   |  |   |  | /  /|  |   |  |    |  |  |  ___|       |  \/  |
+   |  |   |  |/  / |  |   |  |___/  /   |  |_____     /  /\  \ 
+   |__|   |_____/  |__|   |________/    |________|   /__/  \__\ 
+
+*/
